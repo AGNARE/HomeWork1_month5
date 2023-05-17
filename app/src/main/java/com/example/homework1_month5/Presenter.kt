@@ -4,8 +4,8 @@ import android.graphics.Color
 
 class Presenter {
 
-    lateinit var view: CounterView
-    var model = CounterModel()
+    private lateinit var view: CounterView
+    private var model = CounterModel()
 
     fun increment() {
         model.increment()

@@ -34,8 +34,7 @@ class MainActivity : AppCompatActivity(), CounterView {
     }
 
     override fun showToast(message: String) {
-        Toast.makeText(applicationContext, "message", Toast.LENGTH_SHORT).show()
-
+        Toast.makeText(applicationContext, message , Toast.LENGTH_SHORT).show()
     }
 
     override fun changeColor(color: Int) {
